@@ -1,0 +1,44 @@
+.product-form {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+.form-group {
+    margin-bottom: 1rem;
+  }
+  
+.form-group label,h1 {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+.form-group input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+.form-group input[type="number"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-css{
+    width: 800px;
+    margin: 60px auto;
+    background-color: #90dfad;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #999;
+}
+
+.centeredText{
+    text-align: center;
+}
+

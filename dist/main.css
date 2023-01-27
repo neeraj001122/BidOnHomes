@@ -1,0 +1,152 @@
+/*!***************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/App.css ***!
+  \***************************************************************/
+h1{
+    color: black;
+}
+/*!*************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Header/Header.css ***!
+  \*************************************************************************/
+.header {
+    margin: 0 2.5rem;
+    padding: .5rem 0;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+}
+
+.headerLeft {
+    display: flex;
+    align-items: center;
+}
+
+
+a > span{
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+a > span:hover {
+    color: red;
+}
+
+.header__icon {
+    width: 80px;
+    cursor: pointer;
+}
+
+.user__avatar {
+    font-size: 2rem;
+}
+
+/*!***************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/Pages/LoginPage.css ***!
+  \***************************************************************************/
+.form-container {
+    width: 600px;
+    margin: 120px auto;
+    background-color: #f1dede;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #999;
+  }
+  
+  
+  label {
+    font-weight: bold;
+    display: block;
+  }
+  
+  input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+ }
+  
+  button[type="submit"]:hover {
+    background-color: #1c7921;
+}
+/*!***********************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/ProductForm/ProductForm.css ***!
+  \***********************************************************************************/
+.product-form {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+.form-group {
+    margin-bottom: 1rem;
+  }
+  
+.form-group label,h1 {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+.form-group input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+.form-group input[type="number"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-css{
+    width: 800px;
+    margin: 60px auto;
+    background-color: #90dfad;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #999;
+}
+
+.centeredText{
+    text-align: center;
+}
+
+
+/*!*********************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./src/List/List.css ***!
+  \*********************************************************************/
+.product-list-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .product-card {
+    width: 250px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+  }
+  
+  .product-image {
+    width: 100%;
+  }
