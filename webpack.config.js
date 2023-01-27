@@ -1,9 +1,11 @@
 const path = require("path");
 const htmlWebpackPlugin = require("html-webpack-plugin");
 const miniCssPlugin = require("mini-css-extract-plugin");
-
+ //configuration of our application
 module.exports = {
+  //the entery point of our application.
   entry: "./src/index.js",
+  //the out we want from webpack the clean statment cleans our past data with new data.
   output: {
     filename: "BidOnHomes.js",
     path: path.join(__dirname, "dist"),

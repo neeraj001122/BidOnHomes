@@ -5,14 +5,15 @@ import { useNavigate } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { auth } from '../Store/AuthSlice';
 
-
+//this component is responsible for authentication of user 
 function LoginPage() {
   const dispatch = useDispatch()
     const navigate = useNavigate();
     const nameRef = useRef('');
     const mailRef = useRef('');
 
-    const formHandler = (e) => {
+   const formHandler = (e) => {
+    //takes input from the user and passing it to the redux store
         e.preventDefault() ;
       const name = nameRef.current.value;
       const mail = mailRef.current.value;

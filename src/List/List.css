@@ -1,22 +1,22 @@
 .product-list-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .product-card {
-    width: 250px;
-    margin: 10px;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgb(29, 28, 28);
-    color: black;
-    border-radius: 10px;
-  }
-  
-  .product-image {
-    width: 100%;
-  }
-  
-  .center{
-    text-align: center;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+}
+
+.product-card {
+  width: 250px;
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgb(29, 28, 28);
+  color: black;
+  border-radius: 10px;
+}
+
+.product-image {
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}

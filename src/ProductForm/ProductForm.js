@@ -5,6 +5,8 @@ import { useDispatch } from "react-redux";
 import { dataManipulate } from "../Store/DataSlice";
 import { useNavigate } from "react-router-dom";
 
+//this component is responsible of adding the new items in the list
+
 const ProductForm = () => {
     const dispatch = useDispatch()
     const navigate = useNavigate()
@@ -16,6 +18,7 @@ const ProductForm = () => {
 
 
     const submitHandler = (e) => {
+      //taking input from the user and passing it to redux store
         e.preventDefault();
         const productInfo = {
             Name:productName.current.value,

@@ -6,10 +6,10 @@ import { auth } from '../Store/AuthSlice';
 import { useNavigate } from 'react-router-dom';
 import { dataManipulate } from '../Store/DataSlice';
 
+//this component is responsible to render the navbar ui.
 
 const Header = () => {
    const userName = useSelector((state) => state.auth.name);
-   console.log(userName)
    const navigate = useNavigate()
    const dispatch = useDispatch();
 
